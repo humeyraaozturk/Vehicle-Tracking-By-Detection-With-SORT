@@ -32,12 +32,24 @@ conda create -n yolov8_sort python=3.9 -y
 conda activate yolov8_sort
 ```
 
+### Gerekli Repoların Kurulması
+
+```
+https://github.com/abewley/sort.git
+cd sort
+pip install -r requirements.txt
+```
+```
+https://github.com/ultralytics/yolov5.git
+cd yolov5
+pip install -r requirements.txt
+```
+
 ### Gerekli Kütüphanelerin Kurulması
 
 ```
 pip install -r requirements.txt
 ```
-
 ---
 
 ## Model Ağırlıkları (Weights)
